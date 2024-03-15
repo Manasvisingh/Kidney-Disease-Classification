@@ -9,23 +9,21 @@ Clone the repository
 ```bash
 https://github.com/Manasvisingh/Kidney-Disease-Classification
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 1- Create a conda environment 
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n env python=3.8 -y
 ```
 ```bash
-conda activate cnncls
+conda activate env
 ```
 
 
-### STEP 02- install the requirements
+### STEP 2- Install the requirements
 ```bash
 
 pip install -r requirements.txt
 ```
-# Finally run the following command
+# STEP 3- Run the following command
 python app.py
-Now,
 
-open up you local host and port
