@@ -2,14 +2,14 @@
 
 # How to run?
 
-### STEPS:
+# STEPS:
 
-Clone the repository
+### STEP 1- Clone the repository
 
 ```bash
 https://github.com/Manasvisingh/Kidney-Disease-Classification
 ```
-### STEP 1- Create a conda environment 
+### STEP 2- Create a conda environment 
 
 ```bash
 conda create -n env python=3.8 -y
@@ -19,11 +19,13 @@ conda activate env
 ```
 
 
-### STEP 2- Install the requirements
+### STEP 3- Install the requirements
 ```bash
 
 pip install -r requirements.txt
 ```
-# STEP 3- Run the following command
+### STEP 4- Run the following command
+```bash
+
 python app.py
 
